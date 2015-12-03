@@ -22,7 +22,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    
+    self.window.rootViewController = [[UIViewController alloc]init];
     //[[UIApplication sharedApplication] setApplicationIconBadgeNumber:10];
     
 //1.创建消息上面要添加的动作(按钮的形式显示出来)
